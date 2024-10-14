@@ -32,13 +32,33 @@ SELECT DISTINCT city FROM new_students;
 -- the 'WHERE' clause is used the apply conditions
 SELECT * FROM new_students WHERE marks > 85;
 
--- 2 conditions under "WHERE" clause
+-- 2 conditions under "WHERE" clause using "AND" operator
 SELECT *
 FROM new_students
 WHERE city = "Mumbai" and marks > 90;
 
+-- 2 conditions under "WHERE" clause using "OR" operator
+SELECT *
+FROM new_students
+WHERE city = "Mumbai" or marks > 90;
 
+-- 2 conditions under "WHERE" clause using "BETWEEN" operator
+SELECT *
+FROM new_students
+WHERE marks BETWEEN 80 and 90;
 
+-- 1 condition under "WHERE" clause using "IN" operator
+SELECT *
+FROM new_students
+WHERE city IN ('Mumbai', 'Delhi');
 
+-- 1 condition under "WHERE" clause using "NOT IN" operator
+SELECT *
+FROM new_students
+WHERE city NOT IN ('Mumbai', 'Delhi');
 
+-- Limit clause 
+SELECT *
+FROM new_students
+LIMIT 3;
 

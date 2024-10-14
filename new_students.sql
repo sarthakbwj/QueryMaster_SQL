@@ -20,6 +20,7 @@ VALUES
 (106, "farah", 82, "B", "Delhi");
 
 -- select everything from the table and show/print
+-- star is pronounced as 'all'
 SELECT * FROM new_students;
 
 -- select the columns from tabel
@@ -27,4 +28,17 @@ SELECT name, city FROM new_students;
 
 -- select distinct names from a column
 SELECT DISTINCT city FROM new_students;
+
+-- the 'WHERE' clause is used the apply conditions
+SELECT * FROM new_students WHERE marks > 85;
+
+-- 2 conditions under "WHERE" clause
+SELECT *
+FROM new_students
+WHERE city = "Mumbai" and marks > 90;
+
+
+
+
+
 

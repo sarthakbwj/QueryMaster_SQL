@@ -62,6 +62,19 @@ SELECT *
 FROM new_students
 LIMIT 3;
 
+-- order marks in Ascending
 SELECT *
 FROM new_students
-LIMIT 5;
+ORDER BY marks ASC;
+
+-- using aggregate functions
+SELECT AVG(marks) 
+FROM new_students;
+
+SELECT COUNT(marks) 
+FROM new_students;
+
+-- GROUP BY clause
+SELECT city, COUNT(name)
+FROM new_students
+GROUP BY city

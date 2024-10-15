@@ -102,3 +102,21 @@ WHERE grade = "A"
 GROUP BY city
 HAVING MAX(marks) >= 93
 ORDER BY city ASC;
+
+
+-- UPDATE Command 
+
+SET SQL_SAFE_UPDATES = 0;
+
+UPDATE new_stduents
+SET grade = "O"
+WHERE grade = "A";
+
+SELECT * FROM new_students;
+
+
+
+
+
+
+

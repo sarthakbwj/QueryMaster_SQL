@@ -62,3 +62,6 @@ SELECT *
 FROM new_students
 LIMIT 3;
 
+SELECT *
+FROM new_students
+LIMIT 5;

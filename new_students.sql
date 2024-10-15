@@ -125,4 +125,5 @@ DELETE FROM new_students
 WHERE marks < 35;  
 
 SELECT * from new_students;
-
+ 
+ 

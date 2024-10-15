@@ -112,11 +112,17 @@ UPDATE new_stduents
 SET grade = "O"
 WHERE grade = "A";
 
-SELECT * FROM new_students;
+UPDATE new_stduents
+SET marks = 92
+WHERE rollno = 105;
 
+UPDATE new_stduents
+SET marks = marks + 1;
 
+-- Delete Command 
 
+DELETE FROM new_students
+WHERE marks < 35;  
 
-
-
+SELECT * from new_students;
 

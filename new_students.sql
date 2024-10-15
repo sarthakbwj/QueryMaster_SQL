@@ -83,3 +83,22 @@ SELECT city, AVG(marks)
 FROM new_students
 GROUP BY city
 ORDER BY avg(marks);
+
+SELECT grade, COUNT(name)
+FROM new_students
+GROUP BY grade
+ORDER BY grade ASC;
+
+
+-- Having Clause 
+SELECT city, COUNT(rollno)
+FROM new_students
+GROUP BY city
+HAVING MAX(marks) > 90;
+
+SELECT city
+FROM new_students
+WHERE grade = "A"
+GROUP BY city
+HAVING MAX(marks) >= 93
+ORDER BY city ASC;

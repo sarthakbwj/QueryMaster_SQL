@@ -77,4 +77,9 @@ FROM new_students;
 -- GROUP BY clause
 SELECT city, COUNT(name)
 FROM new_students
+GROUP BY city;
+
+SELECT city, AVG(marks)
+FROM new_students
 GROUP BY city
+ORDER BY avg(marks);

@@ -102,9 +102,6 @@ SELECT name FROM employee;
 
 
 
--- NESTED QUERIES
-
-
 
 
 

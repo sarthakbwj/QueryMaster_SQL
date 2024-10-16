@@ -195,4 +195,12 @@ SELECT MAX(marks)
 FROM (SELECT * FROM stu WHERE city = "Delhi") AS temp1;
 
 
+-- VIEW in SQL
+CREATE VIEW view1 AS
+SELECT rollno, full_name, marks FROM stu;
+
+SELECT * FROM view1
+WHERE marks > 90;
+
+DROP VIEW view1;
 

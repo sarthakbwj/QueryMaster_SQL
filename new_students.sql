@@ -124,6 +124,27 @@ SET marks = marks + 1;
 DELETE FROM new_students
 WHERE marks < 35;  
 
+-- ADD/DROP column
+ALTER TABLE new_students
+ADD COLUMN age INT NOT NULL DEFAULT 19;
+
+-- MODIFY column
+ALTER TABLE new_students
+MODIFY COLUMN age VARCHAR(2);
+
+ALTER TABLE new_students
+CHANGE age stu_age INT;
+
+INSERT INTO new_students
+(rollno, name, marks, stu_age)
+VALUES
+(107, gargi, 68, 100);
+
+-- Alter name of table
+ALTER TABLE new_students
+RENAME TO stu;
+
+
 SELECT * from new_students;
  
  

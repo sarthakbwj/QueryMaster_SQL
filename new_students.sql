@@ -1,7 +1,7 @@
 USE college;
 
 -- create table in DB, define coloums and their datatype
-CREATE TABLE new_students(
+CREATE TABLE stu(
 	rollno INT PRIMARY KEY,
     name VARCHAR(100),
     marks INT NOT NULL,
@@ -21,7 +21,7 @@ VALUES
 
 -- select everything from the table and show/print
 -- star is pronounced as 'all'
-SELECT * FROM new_students;
+SELECT * FROM stu;
 
 -- select the columns from tabel
 SELECT name, city FROM new_students;
@@ -154,4 +154,45 @@ CHANGE name full_name VARCHAR(50);
 ALTER TABLE stu
 DROP COLUMN stu_age;
 
-SELECT * from stu;
+
+
+-- NESTED QUERIES Ex. 1
+
+SELECT AVG(marks)
+FROM stu;
+
+SELECT full_name, marks
+FROM stu
+WHERE marks > 80;
+
+
+-- DYNAMIC LOGIC in NESTED QUERIES
+SELECT full_name, marks
+FROM stu
+WHERE marks > (SELECT AVG(marks) FROM stu);
+
+
+
+-- NESTED QUERIES Ex. 2
+
+SELECT rollno, full_name
+FROM stu
+WHERE rollno % 2 = 0;
+
+SELECT name, rollno
+FROM stu
+WHERE rollno IN (102,104,106);
+
+
+-- DYNAMIC LOGIC in NESTED QUERIES
+SELECT full_name, rollno
+FROM stu
+WHERE rollno IN(SELECT rollno FROM stu WHERE rollno % 2 = 0);
+
+
+-- Nested Queries using "FROM"
+SELECT MAX(marks)
+FROM (SELECT * FROM stu WHERE city = "Delhi") AS temp1;
+
+
+

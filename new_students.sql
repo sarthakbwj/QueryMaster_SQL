@@ -9,8 +9,8 @@ CREATE TABLE new_students(
     city VARCHAR(20)
 );
 
-INSERT INTO new_students
-(rollno, name, marks, grade, city)
+INSERT INTO stu
+(rollno, full_name, marks, grade, city)
 VALUES
 (101, "anil", 78, "C", "Pune"),
 (102,"bhumika", 93, "A", "Mumbai"),
@@ -144,7 +144,14 @@ VALUES
 ALTER TABLE new_students
 RENAME TO stu;
 
+-- TRUNCATE data from table 
+TRUNCATE TABLE stu;
 
-SELECT * from new_students;
- 
- 
+
+ALTER TABLE stu
+CHANGE name full_name VARCHAR(50);
+
+ALTER TABLE stu
+DROP COLUMN stu_age;
+
+SELECT * from stu;

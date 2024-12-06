@@ -1,2 +1,7 @@
 double quote " " for table names and column names. 
 single quote ' ' for strings(collection of characters.)
+.mode column give a table format in the terminal.
+SELECT - used to select the database. 
+* means all
+LIMIT - restrict the output to a certain value. 
+WHERE - conditional

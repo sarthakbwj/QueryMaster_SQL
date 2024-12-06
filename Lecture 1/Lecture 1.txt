@@ -1,0 +1,2 @@
+double quote " " for table names and column names. 
+single quote ' ' for strings(collection of characters.)

@@ -5,3 +5,6 @@ SELECT - used to select the database.
 * means all
 LIMIT - restrict the output to a certain value. 
 WHERE - conditional
+
+!= is not equal to
+<> is 

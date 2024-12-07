@@ -7,4 +7,11 @@ LIMIT - restrict the output to a certain value.
 WHERE - conditional
 
 != is not equal to
-<> is _________
+<> is also not equal to 
+
+
+AND - 
+OR - 
+The above two are similar to "logical operators" in python. 
+They can be used to create complex compound conditionals. 
+() - 

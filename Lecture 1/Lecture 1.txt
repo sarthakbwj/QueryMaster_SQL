@@ -26,6 +26,6 @@ Keyword = NULL - value doesn't exist.
     eg. IS NULL
         IS NOT NULL 
 
-Keyword = LIKE
-% - any characters 
-_ (underscore) - 
+Keyword = LIKE - to find something in the DB. Similar to Cmd+F in google docs. 
+% - any number of characters 
+_ (underscore) - any individual character

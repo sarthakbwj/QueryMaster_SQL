@@ -39,3 +39,10 @@ Range Conditions
     BETWEEN ___ AND ___  (inclusive of blanks)
 
 
+Keyword = ORDER BY
+    eg. alphabetically 
+        ascending - ASC
+        descinding - DESC
+
+
+

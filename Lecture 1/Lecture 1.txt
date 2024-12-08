@@ -29,3 +29,13 @@ Keyword = NULL - value doesn't exist.
 Keyword = LIKE - to find something in the DB. Similar to Cmd+F in google docs. 
 % - any number of characters 
 _ (underscore) - any individual character
+
+Range Conditions 
+    eg. <  (less than)
+        >  (greater than)
+        <=  (less than or equal to)
+        >=  (greater than or equal to)
+
+    BETWEEN ___ AND ___  (inclusive of blanks)
+
+

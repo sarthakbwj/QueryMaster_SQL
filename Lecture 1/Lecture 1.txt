@@ -44,5 +44,12 @@ Keyword = ORDER BY
         ascending - ASC
         descinding - DESC
 
+Keyword = AS
+    Helps in changing the names. 
+
+AGGREGATE FUNCTIONS
+Keyword = COUNT
+
+
 
 

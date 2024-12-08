@@ -27,5 +27,5 @@ Keyword = NULL - value doesn't exist.
         IS NOT NULL 
 
 Keyword = LIKE
-% 
-_ (underscore)
+% - any characters 
+_ (underscore) - 

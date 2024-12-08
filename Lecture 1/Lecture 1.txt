@@ -1,21 +1,31 @@
 double quote " " for table names and column names. 
 single quote ' ' for strings(collection of characters.)
-.mode column give a table format in the terminal.
-SELECT - used to select the database. 
+
+
+.mode column - gives a column format to the output in the terminal.
+.mode table - gives a table format to the output in the terminal.
+.mode box - gives a box format to the output in the terminal.
+
+
+Keyword = SELECT - used to select the database. 
 * means all
-LIMIT - restrict the output to a certain value. 
-WHERE - conditional
+Keyword = LIMIT - restrict the output to a certain value. 
+Keyword = WHERE - conditional
 
 != is not equal to
 <> is also not equal to 
 
 
-AND - 
-OR - 
+Keyword = AND 
+Keyword = OR  
 The above two are similar to "logical operators" in python. 
 They can be used to create complex compound conditionals. 
 () - 
 
-NULL - value doesn't exist. 
+Keyword = NULL - value doesn't exist. 
     eg. IS NULL
         IS NOT NULL 
+
+Keyword = LIKE
+% 
+_ (underscore)

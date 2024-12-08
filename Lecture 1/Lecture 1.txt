@@ -48,7 +48,15 @@ Keyword = AS
     Helps in changing the names. 
 
 AGGREGATE FUNCTIONS
-Keyword = COUNT
+Keyword = COUNT - outputs the count of a coulum, row etc. 
+          MAX - Maximum
+          MIN - Minimum
+          SUM - Summation
+
+Keyword = DISTINCT  
+        returns unique values.        
+
+
 
 
 

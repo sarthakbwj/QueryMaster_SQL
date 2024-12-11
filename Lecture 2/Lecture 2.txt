@@ -1,4 +1,12 @@
-Relational Databases
+Entity(coulumn head) Relation Diagram
+
+Relation between entities can be: 
     one to one 
     one to many
     many to many  
+
+As a DB designer I can decided the relationships between the entities. 
+
+#KEYS
+Primary Keys - A unique code/number for a stored commodity in DB. 
+Foreign Keys - Takes a Primary key and uses it another table as a Foreign key.

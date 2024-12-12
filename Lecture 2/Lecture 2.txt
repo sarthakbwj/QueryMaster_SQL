@@ -11,4 +11,15 @@ As a DB designer I can decided the relationships between the entities.
 Primary Keys - A unique code/number for a stored commodity in DB. 
 Foreign Keys - Takes a Primary key and uses it another table as a Foreign key.
 
-SUBQUERY - A query within a query. 
+SUBQUERY - A query within a query. subqueries come into picture when
+2 or more tables are present in a DB. 
+
+eg.
+SELECT "title" FROM "books" WHERE "publisher_id" = (
+     SELECT "id" FROM "publishers" WHERE "publisher" = 'MacLehose Press');
+
+SELECT "rating" FROM "ratings" WHERE "book_id" = (
+     SELECT "id" FROM "books" WHERE "title" = 'In Memory of Memory');
+
+find all ratings for the books - 
+In Memory of Memory 

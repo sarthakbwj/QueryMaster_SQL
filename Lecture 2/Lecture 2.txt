@@ -46,5 +46,22 @@ NATURAL JOIN - return a table created based on similar columns in 2 tables. (eg.
 
 
 
-Keyword SETS - 
+Keyword SETS - A collection of data.
+UNION - Returns everything together. 
+Q. Find either translators or authors. (i.e. all the authors and translators)
+A. SELECT "name" FROM "translators"
+     UNION
+     SELECT "nam e" FROM "authors";
 
+INTERSECT - Returns a set that includes a part of left and a part of right. 
+Q. Find author and translator
+A. SELECT "name" FROM "authors"
+   INTERSECT
+   SELECT "name" FROM "translators"  
+
+EXCEPT - Returns a set which is exclusive 
+Q. Find only authors
+A. SELECT "name" FROM "authors"
+   EXCEPT
+   SELECT "name" FROM "translators";
+   

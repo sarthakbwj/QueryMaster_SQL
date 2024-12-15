@@ -40,3 +40,11 @@ JOINS - used to join 2 tables on data from 1st table that corresponds to data in
 LEFT JOIN - A LEFT JOIN returns all rows from the left table and the matching rows from the right table.  Whatever doesn't match remains empty.  
 RIGHT JOIN - A RIGHT JOIN returns all rows from the right table and the matching rows from the left table. Whatever doesn't match remains empty.  
 FULL JOIN -  FULL JOIN returns all rows from the left and right table with null values where there's no match. 
+All the above joins are the part of "OUTER JOINS"
+
+NATURAL JOIN - return a table created based on similar columns in 2 tables. (eg. ids) without null values.  
+
+
+
+Keyword SETS - 
+

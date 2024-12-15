@@ -30,3 +30,8 @@ A. SELECT "name" FROM "authors"
          WHERE "title" = "The Birthday Party"
      )
 );
+
+Keyword - IN 
+          Used to check if something is inside of more than one thing.
+          ('=' equal to is used to when checking one thing inside of another one thing.)
+     

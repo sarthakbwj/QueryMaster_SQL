@@ -1,5 +1,7 @@
 double quote " " for table names and column names. 
 single quote ' ' for strings(collection of characters.)
+.tables - to view the tables in the database. 
+.quit - to exit from the working database. 
 
 
 .mode column - gives a column format to the output in the terminal.

@@ -1,0 +1,1 @@
+.schema = shows the tables present in a DB. 

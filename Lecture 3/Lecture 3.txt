@@ -1,1 +1,12 @@
 .schema = shows the tables present in a DB. 
+
+Key Word - CREATE TABLE - create table
+Ket Word - DROP TABLE - delete table 
+
+Storage Classes:
+1. NULL - Nothing is here 
+2. INTEGER - whole number 
+3. REAL - decimals
+4. TEXT - character
+5. BLOB (Binary Large Object) - Stores the exact value as given by user. 
+Usable to store data that we don't want to mess around with. 

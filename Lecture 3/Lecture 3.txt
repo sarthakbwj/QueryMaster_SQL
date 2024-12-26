@@ -11,3 +11,9 @@ Storage Classes:
 4. TEXT - character
 5. BLOB (Binary Large Object) - Stores the exact value as given by user. 
 Usable to store data that we don't want to mess around with. 
+
+
+Table Constraints - specifying the type of data. 
+    Primary Key - Unique ids/characters denoted to a table. 
+    Foreign Key - Utilizing the unique ids tagged as primary keys in another table. 
+

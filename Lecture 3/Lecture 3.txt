@@ -1,4 +1,5 @@
-.schema = shows the tables present in a DB. 
+.schema = shows the tables present in a DB.
+.read = reads a file and execute the commands.  
 
 Key Word - CREATE TABLE - create table
 Ket Word - DROP TABLE - delete table 

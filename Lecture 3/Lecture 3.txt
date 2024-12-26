@@ -1,5 +1,5 @@
 .schema = shows the tables present in a DB.
-.read = reads a file and execute the commands.  
+.read schema.sql = reads a sql file and executes the sql query.  
 
 Key Word - CREATE TABLE - create table
 Ket Word - DROP TABLE - delete table 

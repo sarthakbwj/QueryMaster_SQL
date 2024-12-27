@@ -13,9 +13,18 @@ Storage Classes:
 Usable to store data that we don't want to mess around with. 
 
 
-Table Constraints - specifying the data type. 
+Table Constraints - specifying the attribute/character of a table. 
     Primary Key - Unique ids/characters denoted to a table. 
     Foreign Key - Utilizing the unique ids tagged as primary keys in another table.
 
-A joint Primary Key can be made using two columns of a table.  
+A joint Primary Key can be made using two columns of a table. 
+
+
+Column Constraints - restraining the columns to a particular class. 
+1. CHECK - applies a checking mechanism to meet a certain criteria. 
+2. DEFAULT - pre-existent value when nothing is added. 
+3. NOT NULL - a value must be added, not adding anything won't be accepted. 
+4. UNIQUE - each value should be distinct. 
+
+
 

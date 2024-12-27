@@ -1,19 +1,21 @@
 CREATE TABLE "riders" (
-    "id" INTEGER,
+    "id" INTEGER, 
     "name" TEXT,
     PRIMARY KEY ("id")
-); 
+);
 
 CREATE TABLE "stations" (
     "id" INTEGER,
     "name" TEXT, 
-    "line" TEXT,
+    "line" INTEGER,
     PRIMARY KEY ("id")
 );
 
 CREATE TABLE "visits" (
+    "id" INTEGER,
     "rider_id" INTEGER,
     "station_id" INTEGER,
+    PRIMARY KEY ("id"),
     FOREIGN KEY ("rider_id") REFERENCES "riders"("id"),
-    FOREIGN KEY ("station_id") REFERENCES "stations"("id")
-); 
+    FOREIGN KEY ("station_id") REFERENCES "stations"("id"),
+);

@@ -13,7 +13,9 @@ Storage Classes:
 Usable to store data that we don't want to mess around with. 
 
 
-Table Constraints - specifying the type of data. 
+Table Constraints - specifying the data type. 
     Primary Key - Unique ids/characters denoted to a table. 
-    Foreign Key - Utilizing the unique ids tagged as primary keys in another table. 
+    Foreign Key - Utilizing the unique ids tagged as primary keys in another table.
+
+A joint Primary Key can be made using two columns of a table.  
 

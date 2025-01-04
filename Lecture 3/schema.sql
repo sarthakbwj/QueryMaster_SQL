@@ -19,4 +19,4 @@ CREATE TABLE "visits" (
     FOREIGN KEY ("rider_id") REFERENCES "riders"("id"),
     FOREIGN KEY ("station_id") REFERENCES "stations"("id"),
 );
-  
+

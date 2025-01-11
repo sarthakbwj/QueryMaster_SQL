@@ -51,7 +51,7 @@ UNION - Returns everything together.
 Q. Find either translators or authors. (i.e. all the authors and translators)
 A. SELECT "name" FROM "translators"
      UNION
-     SELECT "nam e" FROM "authors";
+     SELECT "name" FROM "authors";
 
 INTERSECT - Returns a set that includes a part of left and a part of right. 
 Q. Find author and translator

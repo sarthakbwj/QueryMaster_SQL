@@ -26,5 +26,6 @@ Column Constraints - restraining the columns to a particular class.
 3. NOT NULL - a value must be added, not adding anything won't be accepted. 
 4. UNIQUE - each value should be distinct. 
 
-When applying primary key to a column, it automatically applies the NOT NULL constraint.  
+When applying primary key to a column, it automatically applies 
+the NOT NULL and UNIQUE constraint.   
 

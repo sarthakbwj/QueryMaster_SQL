@@ -29,3 +29,7 @@ Column Constraints - restraining the columns to a particular class.
 When applying primary key to a column, it automatically applies 
 the NOT NULL and UNIQUE constraint.   
 
+ALTER TABLE - Used to alter an existing table. 
+eg. ALTER TABLE "visits" RENAME TO "swipes";
+
+

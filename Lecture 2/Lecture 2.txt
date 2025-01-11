@@ -66,7 +66,7 @@ A. SELECT "name" FROM "authors"
    SELECT "name" FROM "translators";
 
 
-GROUP BY - a collection of data with similar character/patter/nature. 
+GROUP BY - a collection of data with similar character/pattern/nature. 
 
 Q. Find average rating per book. 
 A. SELECT "book_id", AVG("rating") AS "average rating"
